@@ -5,8 +5,5 @@ Relembrando GIT - GItHUB
 Adicionar uma atualização
 - git add *
 - git commit -m " _COMENTÁRIO IMPORTANTE PARA SABER O QUE MUDOU_ "
-<<<<<<< HEAD
 - git push
-=======
-- git push
->>>>>>> adbfcd83cc414418e9cc9ccb0f2f4395e965cc39
+
