@@ -1,4 +1,4 @@
-# Anotações
+# Notes | Anotações
 
 Relembrando GIT - GITHUB
 
