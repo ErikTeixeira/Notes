@@ -1,26 +1,46 @@
 https://web.dio.me/lab/criando-seu-primeiro-repositorio-no-github-para-compartilhar-seu-progresso/learning/e714fb1c-4990-4c47-99a5-d97703e40b4d
 Relembrando GIT - GItHUB
 
-
+____GIT____
 Comandos
-- git init: inicializa um repositório local git
-- git status: verifica o estado dos seus arquivos
-- git add <nomeDoArquivo>: envia seu arquivo especificado para o Stage
-- git add - -all: envia todos os arquivos para o Stage
-- git commit -m “tituloDoCommit": envia o que está no Stage para o HEAD
-- git remote add origin urlDoRepositorio: adiciona e indica a URL do repositório remoto em que os arquivos serão mantidos
-- git push origin master: envia os arquivos para o repositório remoto que você especificou através da URL do comando acima
-- git checkout -b <nomeDaBranch>: cria uma nova branch
-- git checkout <nomeDaBranch>: alterna para a branch especificada
+	- git init: inicializa um repositório local git
+	- git status: verifica o estado dos seus arquivos
+	- git add <nomeDoArquivo>: envia seu arquivo especificado para o Stage
+	- git add - -all: envia todos os arquivos para o Stage
+	- git commit -m “tituloDoCommit": envia o que está no Stage para o HEAD
+	- git remote add origin urlDoRepositorio: adiciona e indica a URL do repositório remoto em que os arquivos serão mantidos
+	- git push origin master: envia os arquivos para o repositório remoto que você especificou através da URL do comando acima
+	- git checkout -b <nomeDaBranch>: cria uma nova branch
+	- git checkout <nomeDaBranch>: alterna para a branch especificada
 
 
 Criar um repositório
-- Copiar ou HTML, ou SSH
+	- Copiar ou HTML, ou SSH
 
 Clonar o repositório
-- git clone -link do repositório-
+	- git clone -link do repositório-
 
 Adicionar uma atualização
-- git add *
-- git commit -m " _COMENTÁRIO IMPORTANTE PARA SABER O QUE MUDOU_ "
-- git push
+	- git add *
+	- git commit -m " _COMENTÁRIO IMPORTANTE PARA SABER O QUE MUDOU_ "
+	- git push
+
+
+
+____HTML____
+Comandos
+	-Listas: <ul>, <ol> e <li>
+		<ul> cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.
+		<ol> serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.
+		<li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
+	-Imagens: <img>, ele é um daqueles elementos sem tag de fechamento.
+		Tem apenas 2 atributos próprios, o src e o alt.
+		src é obrigatório e guarda o caminho para a imagem que você quer mostrar na página.
+		alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem
+	-Título: <h1>-<h6>
+	-Parágrafo: <p> ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.
+	-Hyperlink:  <a> - que significa anchor/âncora, é ele que interliga vários conteúdos e páginas na web.
+		O href representa o hyperlink para onde sua âncora aponta, pode ser uma página do seu ou de outro site, os dois últimos precisam dos prefixos mailto: e tel:, respectivamente.
+ 		*Target neste momento vai servir para nos ajudar a abrir nossos links em outra aba do navegador usando o valor _blank.
+			<a href="mailto:lucas@vilaboim.com" target="_blank">lucas@vilaboim.com</a>
+	
